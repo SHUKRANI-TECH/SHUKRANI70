@@ -37,7 +37,7 @@ module.exports = { session: process.env.SESSION_ID || '',
                   AUTO_REACT : process.env.AUTO_REACT || "no",
     DATABASE_URL,
     DATABASE: DATABASE_URL === databasePath
-        ? "postgresql://postgres:bKlIqoOUWFIHOAhKxRWQtGfKfhGKgmRX@viaduct.proxy.rlwy.net:47738/railway" : "postgresql://postgres:vfkkfkfkf",
+        ? "postgresql://shukrani_0joo_user:vkzHkrVV6cCFYrXWhu14oAZvp1LCuvbu@dpg-d1eos9qli9vc73c4n6fg-a/shukrani_0joo" : "postgresql://shukrani_0joo_user:vkzHkrVV6cCFYrXWhu14oAZvp1LCuvbu@dpg-d1eos9qli9vc73c4n6fg-a/shukrani_0joo",
    
 };
 let fichier = require.resolve(__filename);
