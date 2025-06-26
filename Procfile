@@ -1,2 +1,2 @@
 
-web: node pkdriller.js && node pkdriller.js
+web: node shukrani.js && node shukrani.js
