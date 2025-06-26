@@ -14,12 +14,12 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined
     : process.env.DATABASE_URL;
 module.exports = { session: process.env.SESSION_ID || '',
     PREFIXE: process.env.PREFIX || ".",
-    OWNER_NAME: process.env.OWNER_NAME || "254799056874",
-    NUMERO_OWNER : process.env.NUMERO_OWNER || " Pkdriller01",              
+    OWNER_NAME: process.env.OWNER_NAME || "255773350309",
+    NUMERO_OWNER : process.env.NUMERO_OWNER || " shukrani",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'no',
-    BOT : process.env.BOT_NAME || 'NEXUS-AI',
-    URL : process.env.BOT_MENU_LINKS || 'https://files.catbox.moe/g86c1n.jpg',
+    BOT : process.env.BOT_NAME || 'SHUKRANI',
+    URL : process.env.BOT_MENU_LINKS || 'https://files.catbox.moe/bvy2u1.jpg',
     MODE: process.env.PUBLIC_MODE || "yes",
     PM_PERMIT: process.env.PM_PERMIT || 'yes',
     HEROKU_APP_NAME : process.env.HEROKU_APP_NAME,
@@ -37,7 +37,7 @@ module.exports = { session: process.env.SESSION_ID || '',
                   AUTO_REACT : process.env.AUTO_REACT || "no",
     DATABASE_URL,
     DATABASE: DATABASE_URL === databasePath
-        ? "postgresql://postgres:bKlIqoOUWFIHOAhKxRWQtGfKfhGKgmRX@viaduct.proxy.rlwy.net:47738/railway" : "postgresql://postgres:bKlIqoOUWFIHOAhKxRWQtGfKfhGKgmRX@viaduct.proxy.rlwy.net:47738/railway",
+        ? "postgresql://postgres:bKlIqoOUWFIHOAhKxRWQtGfKfhGKgmRX@viaduct.proxy.rlwy.net:47738/railway" : "postgresql://postgres:vfkkfkfkf",
    
 };
 let fichier = require.resolve(__filename);
